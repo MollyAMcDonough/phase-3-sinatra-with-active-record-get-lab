@@ -1,4 +1,6 @@
 require_relative './config/environment'
+require_relative './app/models/bakery'
+require_relative './app/models/baked_good'
 require 'sinatra/activerecord/rake'
 
 desc "Runs a Pry console"
